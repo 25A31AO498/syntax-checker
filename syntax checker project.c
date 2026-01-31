@@ -8,7 +8,7 @@ int main() {
     printf("Enter an expression: ");
     scanf("%s", expr);
 
-    for (i = 0; expr[i] != ''; i++) {
+    for (i = 0; expr[i] != '/0'; i++) {
         if (expr[i] == '(')
             round++;
         else if (expr[i] == ')')
